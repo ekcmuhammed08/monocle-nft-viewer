@@ -2,8 +2,9 @@ import Moralis from 'moralis';
 
 export default async function handler(req, res) {
   const { address, network } = req.body;
-  await Moralis.start({ apiKey: process.env.MORALIS_API_KEY });
-
+  if (!Moralis.Core.isStarted){
+    await Moralis.start({ apiKey: process.env.MORALIS_API_KEY })
+    }
   try {
     const data = await Moralis.SolApi.account.getNFTs({
       network,
