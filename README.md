@@ -1,7 +1,7 @@
 # `Monocle-NFT-Viewer`
 
-  - See all your NFT's in a single page.
-  - Simply connect your solana wallet and select the network you want to view your nfts.
+  - Monocle NFT Viewer is a practical tool to see all the nfts a wallet has.
+  - No need to connect with your wallet Just paste your wallet address and get rid of the clutter.
   
   ![image](https://user-images.githubusercontent.com/102401307/222992765-3a908562-1d8c-4fce-aee6-2d8b0b84ccd9.png)
 
