@@ -9,8 +9,8 @@ const Footer = () => {
   return (
     <Box textAlign={'center'} w="full" p={6}>
       <Text>
-        ⭐️ View on Github{' '}
         <Link href={links.github} isExternal alignItems={'center'}>
+        ⭐️ View on Github{' '}
            <ExternalLinkIcon />
         </Link>
         , every star makes us very happy!
