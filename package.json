@@ -2,7 +2,6 @@
   "name": "Monocle-NFT-Viewer",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://eth-boilerplate.vercel.app/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -45,5 +44,6 @@
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
-  }
+  },
+  "author":"Muhammed Ekici <ekcmuhammed08@gmail.com>"
 }
